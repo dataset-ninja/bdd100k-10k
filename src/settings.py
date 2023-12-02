@@ -17,7 +17,7 @@ PROJECT_NAME: str = "BDD100K: Images 10K"
 PROJECT_NAME_FULL: str = (
     "BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning (Images 100K)"
 )
-HIDE_DATASET = False  # set False when 100% sure about repo quality
+HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -52,20 +52,18 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/bdd100k-10k"
 DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://www.bdd100k.com/"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None  # {
-#     "car": [230, 25, 75],
-#     "drivable area": [60, 180, 75],
-#     "lane": [255, 225, 25],
-#     "traffic sign": [0, 130, 200],
-#     "traffic light": [245, 130, 48],
-#     "person": [145, 30, 180],
-#     "truck": [70, 240, 240],
-#     "bus": [240, 50, 230],
-#     "bike": [210, 245, 60],
-#     "rider": [250, 190, 212],
-#     "motor": [0, 128, 128],
-#     "train": [220, 190, 255],
-# }
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "car": [230, 25, 75],
+    "pedestrian": [60, 180, 75],
+    "truck": [255, 225, 25],
+    "bicycle": [0, 130, 200],
+    "motorcycle": [245, 130, 48],
+    "caravan": [145, 30, 180],
+    "trailer": [70, 240, 240],
+    "bus": [240, 50, 230],
+    "rider": [250, 190, 212],
+    "train": [220, 190, 255],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
