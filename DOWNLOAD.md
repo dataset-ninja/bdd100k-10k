@@ -1,6 +1,6 @@
 Dataset **BDD100K: Images 10K** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/4/f/Ov/qzqr3MuZrMwTfLpMaGgjcfUPcB5VC0OnZILwDgdNfcd1ZDQgb9rFFMEaMM9bzdlt0Z5LI9BtPeb2BS7pamgnT0AYHGAnTq1GG0OTMB3DpIvgH27484kGtKh75Nno.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
