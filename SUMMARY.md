@@ -1,4 +1,4 @@
-**BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning (Images 100K)** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the automotive industry. 
+**BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning (Images 10K)** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is used in the automotive industry. 
 
 The dataset consists of 10000 images with 205552 labeled objects belonging to 10 different classes including *car*, *pedestrian*, *truck*, and other: *bus*, *bicycle*, *rider*, *motorcycle*, *caravan*, *trailer*, and *train*.
 
